@@ -2,7 +2,7 @@
 
 POE-part3 is a front-end web project built with HTML, CSS, and JavaScript. It features multiple pages (Home, About, Services, News, Contact) and is structured with tools for workflow automation (Gulp, Grunt, Bower).  
 
----
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Table of Contents
 
@@ -15,9 +15,9 @@ POE-part3 is a front-end web project built with HTML, CSS, and JavaScript. It fe
 - [Project Structure](#project-structure)  
 - [Development & Build Tools](#development-and-build-tools)  
 - [Contributing](#contributing)  
-- [License](#license)  
 
----
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Features
 
@@ -26,7 +26,7 @@ POE-part3 is a front-end web project built with HTML, CSS, and JavaScript. It fe
 - Automation with Gulp / Grunt for tasks like minification, compilation etc.  
 - Dependency management via Bower.  
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Technologies Used
 
@@ -38,7 +38,7 @@ POE-part3 is a front-end web project built with HTML, CSS, and JavaScript. It fe
 | Package & dependency management | Bower, npm |
 | Task automation / build system | Gulp, Grunt |
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Getting Started
 
@@ -57,10 +57,11 @@ Before you begin, make sure you have installed:
    ```bash
    git clone https://github.com/st123896/POE-part3.git
 Change into the project directory:
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 bash
 Copy code
 cd POE-part3
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Install npm packages:
 
 bash
@@ -88,7 +89,7 @@ bash
 Copy code
 grunt
 To view the website locally, open index.html in your browser or use a web server (e.g. http-server, live-server) for better testing of relative paths and assets.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Project Structure
 pgsql
 Copy code
@@ -106,7 +107,7 @@ POE-part3/
 ├── gulpfile.js
 └── gruntfile.js
 index.html & other .html files – the various pages of the site
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 style.css – main stylesheet
 
 package.json – npm dependencies and scripts
@@ -121,6 +122,7 @@ Gulp – used for tasks such as CSS preprocessing (if applicable), minification,
 Grunt – similar build tasks; may co-exist depending on certain workflows.
 
 Bower – helps with front-end dependency management (libraries, frameworks).
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Contributing
 Contributions are welcome! To contribute:
@@ -137,12 +139,7 @@ Open a Pull Request describing your changes
 
 Please follow existing code conventions and ensure anything added maintains consistency in style and formatting.
 
-License
-This project is currently unlicensed. Add a license file (e.g. MIT, Apache 2.0) if you want others to use, modify, or distribute your work under clear terms.
-
-Contact
-If you have any questions, suggestions or issues, feel free to reach out:
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Author: Tshepiso Mokhine
 
 GitHub: https://github.com/st123896
